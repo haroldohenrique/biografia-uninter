@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body, html {
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+    /* overflow: hidden !important; */
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(80, 90, 195);
+}
+
+
+/* começo do header */
+
+.header{
+    margin-top: 2vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: -1px 0px 7px rgba(0, 0, 0, 0.827);
+    
+}
+
+.sectionHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10vw;
+    
+    
+}
+
+.tituloHeader{
+    color: #000;
+    
+    font-family: "Caveat", cursive;
+    font-size: 10vh;
+    text-shadow: 3px 2px 3px #fff;
+}
+
+.navbarHeader{
+    display: flex;
+    align-items: center;
+    font-size: 4vh;
+    gap: 3vw;
+}
+
+.linkNavbar{
+    font-family: "Jaini Purva", system-ui;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 2px 2px 3px #000;
+}
+
+.linkNavbar:active{
+    transform: scale(105%);
+
+}
+
+.linkNavbar:hover{
+    color: rgb(76, 76, 246);
+}
+

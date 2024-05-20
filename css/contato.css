@@ -1,0 +1,54 @@
+/* começo do main */
+
+main{
+    width: 100vw;
+    margin: 2vh 0;
+    padding: 10vh 0;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+}
+
+.h2Titulo{
+    font-family: "Caveat", cursive;
+    font-size: 7vh;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.divContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Jaini Purva", system-ui;
+    color: #fff;
+    font-size: 2.5vh;
+    text-align: center;
+    
+}
+
+.input-botao{
+    font-family: "Jaini Purva", system-ui;
+    width: 7vw;
+    height: 5vh;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 1px 2px 4px #000;
+    color: #fff;
+    font-size: 2.5vh;
+    text-align: center;
+    background-color: rgb(65, 65, 194);
+}
+
+.input-botao:hover{
+    cursor: pointer;
+    background-color: rgb(53, 53, 248);
+}
+
+.input-botao:active{
+    transform: scale(105%);
+}
